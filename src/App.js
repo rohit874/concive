@@ -15,7 +15,6 @@ function App() {
 
   const [StudentData, setStudentData] = useState([]);
     useEffect(()=>{
-        console.log(JsonData);
         setStudentData(JsonData);
       },[]);
 

@@ -8,7 +8,6 @@ function StudentList() {
     const {StudentData} = useContext(StudentContext);
     
     function StudentDetail(id){
-        console.log(id);
         history(`/detail/${id}`);
     }
   return (
